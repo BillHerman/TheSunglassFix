@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" 
+    android:orientation="vertical" >
+
+    <LinearLayout 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" 
+    	android:gravity="center_horizontal"
+    	>
+    
+        <TextView 
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+            android:textColor="@color/Orange"
+			android:text="The Sunglass"
+			android:textSize="40dp"
+			android:layout_margin="5dp"            
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+            android:textColor="@color/Blue"
+			android:text="Fix"
+			android:textSize="40dp"            
+            android:layout_margin="5dp"            
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" 
+    	android:gravity="center_horizontal"
+    	>
+    
+        <TextView 
+    		android:id="@+id/WebAddress"
+        	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+            android:textColor="@color/Blue"
+			android:text="sunglassfix.com.au"
+			android:textSize="20dp"
+			android:layout_margin="5dp"            
+            />
+        <TextView 
+            android:id="@+id/PhoneNumber"
+        	android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+            android:textColor="@color/Blue"
+			android:text="1800-SUN-FIX"
+			android:textSize="20dp"            
+            android:layout_margin="5dp"            
+            />
+        
+    </LinearLayout>
+
+    <LinearLayout 
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="vertical" 
+    	android:gravity="center"
+    	android:layout_gravity="center"
+    	>
+    
+    <ImageView 
+        android:id="@+id/Glasses"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/sunglasses1"
+        />
+    
+    <SeekBar
+        android:id="@+id/SeekBar"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:max="5" 
+        />
+
+	</LinearLayout>
+    
+</LinearLayout>
